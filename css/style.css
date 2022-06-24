@@ -1,0 +1,60 @@
+p {
+    color:blueviolet
+}
+
+h1 {
+    margin-top: 10px;
+    color: white;
+    background-color: rgb(110, 110, 192)
+}
+
+#title, #second {
+    margin-top: 10px;
+    color: white;
+    background-color: green
+}
+
+.subTitle{
+    text-decoration:dotted ;
+    background-color: black;
+    color: white;
+}
+
+.images {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.dp{
+    width:200px;
+    height: 300px;
+    
+}
+
+#staffTable{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 100%; 
+    text-align: center;
+}
+
+#staffTable td, #staffTable th {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 100%; 
+    text-align: left;
+    border:1px solid
+}
+
+#staffTable th {
+    background-color: white
+}
+
+#footer{
+    margin: 10px;
+}
+
+.btn{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

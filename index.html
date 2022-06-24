@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My First Web Page</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"/>
+        <link rel="stylesheet" href="css/style.css"/>
+
+    </head> 
+    <body>
+        <div id="container">
+            <div id="nav">
+                <a href="index.html">Home</a> |
+                <a href="about.html">About Us</a> |
+                <a href="form.html">Contact Us</a>
+            </div>
+        <div class="images">
+            <img src="img/sunflower.jpg" class="dp" alt=""/>
+            <img src="img/sunflower.jpg" class="dp" alt=""/>
+            <img src="img/sunflower.jpg" class="dp" alt=""/>
+        </div>
+        <div id="content" class="container">
+            <h1 id="title" class="display-1">Hello </h1>
+            
+            <ul>
+                <li>
+                    <p class="information">list item</p>
+                </li>
+            </ul>
+            <ol>
+                <li>
+                    <p>list item</p>
+                </li>
+            </ol>
+            <h1 id="second" class="subTitle">Hello </h1>
+            <h3> Staff Member Details</h3>
+            <table id="staffTable">
+                <tr>
+                    <th class="information">Name</th>
+                    <th>Age</th>
+                    <th>Staff Id</th>
+                </tr>
+                <tr>
+                    <th>evan</th>
+                    <th>12</th>
+                    <th>45487686</th>
+                </tr>
+            </table>
+        </div>
+            <div id="footer">
+                This is the footer
+            </div>
+        <a id="link" class="btn btn-link" href="https://wwww.amazon.com" target="_blank"> Amazon</a>  
+        <button type="button" class="btn btn-primary" onclick="buttonClicked()">Click Me!</button>
+        <button type="button" class="btn btn-success" onclick="buttonToChangeTextClicked()">Click Me To Change Text!</button>
+        <button type="button" class="btn btn-dark" id="hideTitleBtn">Click Me To Hide Title!</button>
+       
+        <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <script src="js/jquery.js"></script>
+        <script src="js/script.js"></script>
+        <script>
+            $(document).ready(function(){
+                $('#hideTitleBtn').click(function(){
+                    $('#second').toggle();
+                    $('p').html('THIS IS jQUERY TEXT');
+                });
+            });
+        </script>
+    </body>
+</html>
