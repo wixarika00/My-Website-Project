@@ -2,11 +2,6 @@ p {
     color:black
 }
 
-h1 {
-    margin-top: 10px;
-    color: white;
-    background-color: rgb(110, 110, 192)
-}
 
 #title, #second {
     margin-top: 10px;
@@ -58,4 +53,13 @@ h1 {
 .btn{
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+#gallery{
+    display: flex;
+    justify-content: center;
+}
+
+.col-3{
+    margin: 10px;
 }

@@ -9,7 +9,7 @@
         <div id="container">
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
                 <div class="container">
-                  <a class="navbar-brand" href="#">My Website</a>
+                  <a class="navbar-brand" href="index.html">My Website</a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
@@ -30,8 +30,28 @@
               </nav>
             <br/>
         <div id="content" class="container">
-            <h1 id="title2">Contact Us</h1>
-        <form action="success.html">
+            <form class="row g-3">
+                <div class="col-md-6">
+                  <label for="inputFirstName4" class="form-label">First Name</label>
+                  <input type="text" class="form-control" id="inputFirstName4">
+                </div>
+                <div class="col-md-6">
+                  <label for="inputLastName4" class="form-label">Last Name</label>
+                  <input type="text" class="form-control" id="inputLastName4">
+                </div>
+                <div class="col-12">
+                    <label for="inputEmail4" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="inputEmail4">
+                </div>
+                <div class="col-12">
+                    <label for="inputQuery" class="form-label">Your Query</label>
+                    <textarea class="form-control" id="inputQuery"></textarea>
+                </div>
+                <div class="col-12">
+                  <button type="submit" class="btn btn-primary btn-block">Submit</button>
+                </div>
+              </form>
+        <!-- <form action="success.html">
             <label for="fname">First Name</label><br/>
             <input type="text" class ="form-control" id="fname"
             name="fname">
@@ -46,8 +66,9 @@
             <div class="d-grid gap-2">
                 <input type="submit" class="btn btn-success" value="Submit Your Query"/>
             </div>
-        </form>
+        </form> -->
         </div>
+        <br/>
             
         <footer class="container">
             <p>&copy; My Website 2022</p>
