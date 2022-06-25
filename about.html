@@ -6,15 +6,49 @@
         <link rel="stylesheet" href="css/style.css"/>
     </head>
     <body>
-        <div id="container">
-            <div id="nav">
-                <a href="index.html">Home</a> |
-                <a href="about.html">About Us</a> |
-                <a href="form.html">Contact Us</a><br/>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container">
+                  <a class="navbar-brand" href="#">My Website</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="form.html">Contact Us</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+            </nav>
+            <br/>
+        <div id="content" class="container">
+            <div class="row">
+                <div class="col-8"></div>
+                    <h4 class="text-primary">About Me</h4>
+                    <p class="text-muted">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi harum obcaecati nesciunt expedita quisquam voluptatem enim iste, nihil saepe illum illo ipsa quia dolor consectetur sint nam. Quibusdam, magnam iste?
+                    </p>
+                </div>
+                <div class="col-3 offset-md-1"></div>
+                    <h4 class="text-primary">Contact Info</h4>
+                    <ul>
+                        <li><a href="#" class="text-dark">Twitter</a></li>
+                        <li><a href="#" class="text-dark">Facebook</a></li>
+                        <li><a href="#" class="text-dark">GitHub</a></li>
+                    </ul>
+                </div>
+
             </div>
-            <div id="content" class="container">
-                About Us
-                <div class="images">
+
+
+                <!-- <div class="images">
                     <img src="img/sunflower.jpg" class="dp" alt=""/>
                     <img src="img/sunflower.jpg" class="dp" alt=""/>
                     <img src="img/sunflower.jpg" class="dp" alt=""/>
@@ -50,11 +84,11 @@
                         <th>45487614</th>
                     </tr>
                 </table>
-            </div>
+            </div> -->
                 
-            <div id="footer">
-                    This is the footer
-            </div>
+            <footer class="container">
+                <p>&copy; My Website 2022</p>
+            </footer>
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
         <script src="js/jquery.js"></script>

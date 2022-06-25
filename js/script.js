@@ -2,5 +2,5 @@ function buttonClicked() {
     alert('Page Loaded, JS Alert');
 }
 function buttonToChangeTextClicked() {
-    document.getElementById('second').innerHTML = "JavaScript text"
+    document.getElementsById('first-column').innerHTML = "JavaScript text"
 }
